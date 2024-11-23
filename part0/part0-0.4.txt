@@ -26,3 +26,5 @@ sequenceDiagram
     activate server
     server-->>browser: HTTP 200 - the JSON Data file
     deactivate server
+
+    Note right of browser: The callback function executed and the list is re-rendered
